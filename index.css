@@ -1,1 +1,23 @@
+*{
+  box-sizing: border-box;
+}
 
+div.row{
+  display: flex;
+}
+
+.quad {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 2px;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.quad:hover{
+  background-color: white;
+  cursor: pointer;
+}
